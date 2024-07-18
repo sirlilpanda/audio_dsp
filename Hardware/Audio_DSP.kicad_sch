@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "32450062-e64b-4ab3-990a-bf00b5eb1a78")
+	(paper "A3")
+	(lib_symbols)
+	(sheet
+		(at 344.805 24.13)
+		(size 46.355 38.735)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "011387e4-a3eb-4ae9-982a-4167641de906")
+		(property "Sheetname" "power"
+			(at 344.805 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 344.805 63.4496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Audio_DSP"
+				(path "/32450062-e64b-4ab3-990a-bf00b5eb1a78"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.115 22.86)
+		(size 88.265 247.015)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6a7b7027-33a3-433f-a242-93bdcac87ae2")
+		(property "Sheetname" "MCU"
+			(at 31.115 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 31.115 270.4596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Audio_DSP"
+				(path "/32450062-e64b-4ab3-990a-bf00b5eb1a78"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
